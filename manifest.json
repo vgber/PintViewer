@@ -1,0 +1,31 @@
+{
+  "manifest_version": 3,
+  "name": "PintViewer",
+  "version": "0.1.2",
+  "description": "View Pinterest photos one at a time.",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "action": {
+    "default_title": "Open PintViewer",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "64": "icons/pintviewer-64.png"
+    }
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{ae670cda-6fae-4f2f-b178-7c246e94406f}",
+      "strict_min_version": "140.0",
+      "data_collection_permissions": {
+        "required": [
+          "none"
+        ]
+      }
+    }
+  },
+  "icons": {
+    "64": "icons/pintviewer-64.png"
+  }
+}
